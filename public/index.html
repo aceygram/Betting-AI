@@ -302,7 +302,7 @@ textarea{resize:vertical;min-height:65px;font-size:.82rem;line-height:1.5;}
 <script>
 // ─── CONFIG ────────────────────────────────────────────────
 
-const FOOTBALL_API_BASE = 'http://localhost:3001/api/football';
+const FOOTBALL_API_BASE = window.location.origin + '/api/football';
 
 // ─── CACHE (session-level, avoids hammering the free tier) ─
 const cache = {};
